@@ -13,7 +13,7 @@ console.log(problem2)
 
 function sum(num) {
     var sum = 0
-    for (i = 1; i <= num; i++) {
+    for (i = 1; i <= num; i++) {+        
         if (i % 2 == 0)
             sum = sum + i
     }
